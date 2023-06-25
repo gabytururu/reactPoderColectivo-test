@@ -20,6 +20,9 @@ function App() {
     fetch(' http://localhost:8000/complaintsList')
       .then(res => {
         console.log(res)
+        if(res !== res.ok){
+          throw Error('data was not fetch, either inexistent enpoint or denied req')
+        }        
         return res.json()
       })
       .then((data)=>{
