@@ -1,7 +1,15 @@
+body{
+    --base-background-color: rgb(243, 232, 232);
+    --dark-nav-color: rgb(8,83,85);
+    --bright-button: rgb(238, 204, 10);
+    /* rgb(255, 167, 167) */
+}
+
+
 .graph{
     height:35vh;
     max-width: 1200px;
-    background-color: rgb(255, 167, 167);
+    background-color: var(--base-background-color);
     margin:35px auto;
 }
 

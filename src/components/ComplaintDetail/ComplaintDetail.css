@@ -1,0 +1,37 @@
+body{
+    --base-background-color: rgb(243, 232, 232);
+    --dark-nav-color: rgb(8,83,85);
+    --bright-button: rgb(238, 204, 10);
+}
+
+
+.complaintDetail{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.userEvalGraph{
+    background-color: gray;
+    max-width:1200px;
+    width:80vw;
+    min-height: 35vh; 
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+}
+
+.userComplaint{
+    background-color: var(--base-background-color);
+    max-width: 1200px;
+    width:80vw;
+    display: flex;
+    flex-direction: column;
+
+    margin:auto;
+    padding: 35px;
+    box-sizing: border-box;
+   
+
+}

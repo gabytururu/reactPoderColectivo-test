@@ -1,0 +1,32 @@
+.formContainer{
+    width:80vw;
+    max-width: 1200px;
+    margin: 35px auto
+}
+
+.formContainer p {
+    font-style: italic;
+    font-size: 12px;
+    margin-top: 8px
+}
+
+.formContainer form{
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.formContainer form input{
+    padding:7px;
+    border: solid 1px gray;
+    border-radius: 5px;
+}
+
+.formContainer form textarea{
+    border: solid 1px gray;
+    border-radius: 5px;
+}
+
+.formContainer form label{
+    margin-top:10px
+}

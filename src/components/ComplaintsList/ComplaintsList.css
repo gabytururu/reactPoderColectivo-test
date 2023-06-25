@@ -1,0 +1,28 @@
+body{
+    --base-background-color: rgb(243, 232, 232);
+    --dark-nav-color: rgb(8,83,85);
+    --bright-button: rgb(238, 204, 10);
+}
+
+.complaintsContainer{
+    max-width: 1200px;
+    margin:auto
+}
+
+.complaintsContainer h1{
+    font-size:45px;
+    font-weight:600px;
+    text-align: center;
+}
+
+.complaintSnippet{
+    margin:18px auto;
+    width:80vw;
+    max-width:1200px;
+    background-color:var(--base-background-color);
+    padding:25px;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+
+
