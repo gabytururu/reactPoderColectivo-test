@@ -25,4 +25,9 @@ body{
     border-radius: 7px;
 }
 
+.complaintSnippet a{
+    text-decoration: none;
+    color:black
+}
+
 
